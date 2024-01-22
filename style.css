@@ -1,3 +1,109 @@
+/* header */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* header top */
+  .header {
+    background-color: rgb(249, 113, 113);
+    width: 100%;
+    height: 850px;
+  }
+  
+  .header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+  }
+  
+  .lupa {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  
+  .header_icon {
+    border: 1px solid white;
+    width: 1px;
+    height: 47px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    margin: auto 32px;
+  }
+  /*End header top */
+  
+  /* header bottom */
+  
+  .header_bottom {
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+  }
+  
+  .header_bottomText {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+  }
+  
+  .header_btn {
+    color: #ff4948;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+  }
+  
+  .header_bottomRight h1 {
+    color: #fff;
+    font-size: 99.17px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+  }
+  
+  .header_price {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 45px auto;
+  }
+  
+  .header_bottomRight p del {
+    opacity: 0.7;
+  }
+  
+  /*End header bottom */
+  
+  /*End header */
+  
 /* main section */
 
 .headphone_about {
